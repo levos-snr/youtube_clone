@@ -2,6 +2,7 @@
 
 import { Stack } from "@mui/material";
 import { Link } from "react-router-dom";
+import { Sidesearch } from "./";
 
 import { logo } from "../utils/constants";
 import { SearchBar } from "./";
@@ -13,7 +14,7 @@ const Navbar = () => (
     p={2}
     sx={{
       position: "sticky",
-      background: "#000",
+      background: "linear-gradient(to right, #000, red)",
       top: 0,
       justifyContent: "space-between",
     }}
@@ -22,6 +23,7 @@ const Navbar = () => (
       <img src={logo} alt="logo" height={45} />
     </Link>
     <SearchBar />
+    <Sidesearch />
   </Stack>
 );
 
