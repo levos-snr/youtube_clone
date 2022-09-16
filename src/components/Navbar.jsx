@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { Sidesearch } from "./";
 
 import { logo } from "../utils/constants";
-import { SearchBar } from "./";
+import { Searchbar } from "./";
 
 const Navbar = () => (
   <Stack
